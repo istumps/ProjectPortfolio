@@ -1,0 +1,130 @@
+.project-home {
+    margin: 0;
+    padding: 6rem 2rem 2rem;
+    background-color: #161321;
+    color: rgb(255, 255, 255);
+    font-family: var(--main-font);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    width: 100%;
+    box-sizing: border-box;
+    overflow: hidden; 
+
+  }
+
+  .project-home h1 {
+    font-size: 3rem;
+    margin-bottom: 2rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #e2e2e2;
+    text-align: center;
+    border-bottom: 2px solid #446cdc;
+  }
+
+  .project-container {
+    display: flex;
+    gap: 1.5rem;
+    justify-content: space-between;
+    align-items: stretch; 
+    width: 100%;
+    max-width: 1400px;
+    box-sizing: border-box;
+    padding: 0 1rem; 
+    overflow: hidden; 
+
+  }
+  .navigation-note {
+    font-size: 14px;
+    color: #555; /* Adjust color to your preference */
+    margin-top: 8px;
+  }
+  .project-card {
+
+    background: #232132;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    flex: 1 1 30%; 
+    max-width: 400px;
+    padding: 1rem;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+
+  .project-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+  }
+
+  .project-img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin-bottom: 1rem;
+  }
+
+  .project-title {
+    font-size: 1.8rem;
+    font-weight: bold;
+    margin: 1rem 0 0.5rem;
+    color: #ffffff;
+  }
+
+  .project-desc {
+    font-size: 1.1rem;
+    margin: 0.5rem 0 1rem;
+    line-height: 1.6;
+    color: #cfcfcf;
+  }
+
+  .project-details {
+    font-size: 1rem;
+    color: #a6a6a6;
+    margin-bottom: 1rem;
+    line-height: 1.6;
+  }
+
+  .project-details p {
+    margin: 0.5rem 0;
+  }
+
+  .project-links {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+  }
+
+  .project-links .social-icon {
+    height: 55px;
+    width: 55px;
+  }
+
+  .button-link {
+    display: inline-block;
+    background-color: #446cdc;
+    color: #ffffff;
+    font-size: 1.1rem;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 0.7rem 1.5rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 1rem;
+    text-align: center;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+  }
+
+  .button-link:hover {
+    background-color: #3554a1;
+    transform: scale(1.05);
+  }
+
+  .button-link:active {
+    transform: scale(0.95);
+    background-color: #2a3e73;
+  }

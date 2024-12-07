@@ -1,0 +1,46 @@
+.dancing-robot-container {
+    position: relative;
+    width: 300px;
+    height: 300px;
+  }
+  
+  .dancing-robot {
+    position: absolute;
+    margin-left: 250%;
+    bottom: 390px ;
+    animation: dance 2s infinite, fly-loop 6s infinite;
+  width: 290px; /* Adjust the width */
+  height: auto; /* Maintain the aspect ratio */
+  }
+  
+  @keyframes dance {
+    0%, 100% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-5px);
+    }
+  }
+  @keyframes fly-loop {
+  
+    20% {
+      transform: translate(0, -450px) rotate(0deg); /* Fly up */
+      opacity: 0;
+    }
+  
+    21% {
+        opacity: 0;
+      transform: translate(0, 450px) rotate(0deg); /* Fly up from the bottom */
+    }
+    20% {
+        transform: translate(0, -450px) rotate(0deg); /* Fly up */
+      }
+      
+  }
+
+  
+  
+  
+  
+
+  
