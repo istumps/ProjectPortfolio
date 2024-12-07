@@ -1,5 +1,5 @@
 import React from 'react';
-import './DancingRobot.css'; // Create this CSS file for the animation
+import './DancingRobot.css';
 
 const DancingRobot = () => {
   return (

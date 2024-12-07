@@ -1,90 +1,86 @@
-/* Main Body */
 .about-body {
   margin: 0;
-  padding: 6rem 2rem 2rem; /* Add top padding for navbar space */
+  padding: 6rem 2rem 2rem; 
   background-color: #161321;
-  color: rgb(255, 255, 255); /* Text color */
-  font-family: var(--main-font); /* 'Courier New', Courier, monospace */
+  color: rgb(255, 255, 255); 
+  font-family: var(--main-font); 
   display: flex; 
-  flex-direction: column; /* Arrange items vertically */
+  flex-direction: column; 
   align-items: center;
-  justify-content: flex-start; /* Align content to the top */
-  min-height: 100vh; /* Ensure it covers the full viewport height */
-  box-sizing: border-box; /* Include padding in height calculations */
-  overflow-y: auto; /* Allow scrolling if content exceeds viewport */
+  justify-content: flex-start; 
+  min-height: 100vh; 
+  box-sizing: border-box; 
+  overflow-y: auto; 
 }
 
-/* Title Styling */
 .about-title h1 {
-  font-size: 3rem; /* Prominent title size */
-  margin-bottom: 2rem; /* Add spacing below the title */
-  text-transform: uppercase; /* Add uppercase styling */
-  letter-spacing: 1px; /* Slightly increase letter spacing */
-  color: #e2e2e2; /* Lighter text color for better contrast */
-  text-align: center; /* Center-align the title */
+  font-size: 3rem; 
+  margin-bottom: 2rem; 
+  text-transform: uppercase; 
+  letter-spacing: 1px; 
+  color: #e2e2e2; 
+  text-align: center; 
   border-bottom: 2px solid #446cdc;
 
 }
 
-/* About Section */
 .about {
-  width: 100%; /* Take full width */
-  max-width: 800px; /* Limit max width for readability */
+  width: 100%; 
+  max-width: 800px; 
   padding: 1rem;
-  background: #232132; /* Slightly lighter background for contrast */
+  background: #232132; 
   border-radius: 10px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Subtle shadow effect */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
   color: #ffffff;
 }
 
 .about h2 {
-  font-size: 1.8rem; /* Section title size */
-  margin-top: 1.5rem; /* Space above each section */
-  margin-bottom: 1rem; /* Space below each section title */
-  color: #e2e2e2; /* Ensure contrast */
-  border-bottom: 2px solid #446cdc; /* Add underline with theme color */
+  font-size: 1.8rem; 
+  margin-top: 1.5rem; 
+  margin-bottom: 1rem; 
+  color: #e2e2e2; 
+  border-bottom: 2px solid #446cdc; 
   padding-bottom: 0.5rem;
 }
 
 .about p {
   font-size: 1rem;
-  line-height: 1.6; /* Improve readability */
-  color: #cfcfcf; /* Slightly lighter text for better readability */
-  margin-bottom: 1rem; /* Add spacing below each paragraph */
+  line-height: 1.6; 
+  color: #cfcfcf; 
+  margin-bottom: 1rem; 
 }
 .resume-download {
-  text-align: center; /* Center the button */
+  text-align: center; 
   margin-bottom: 1rem;
 }
 
 .download-button {
   display: inline-block;
-  background-color: #446cdc; /* Theme color for the button */
-  color: #ffffff; /* White text */
+  background-color: #446cdc; 
+  color: #ffffff; 
   font-size: 1rem;
   font-weight: bold;
-  padding: 0.75rem 1.5rem; /* Add padding for a larger button */
-  border-radius: 5px; /* Rounded corners */
-  text-decoration: none; /* Remove underline */
-  cursor: pointer; /* Pointer cursor for interactivity */
-  transition: background-color 0.3s ease, transform 0.2s ease; /* Smooth hover effect */
+  padding: 0.75rem 1.5rem; 
+  border-radius: 5px; 
+  text-decoration: none; 
+  cursor: pointer; 
+  transition: background-color 0.3s ease, transform 0.2s ease; 
 }
 
 .download-button:hover {
-  background-color: #3554a1; /* Darker blue for hover */
-  transform: scale(1.05); /* Slight zoom on hover */
+  background-color: #3554a1; 
+  transform: scale(1.05); 
 }
 
 .download-button:active {
-  background-color: #2a3e73; /* Even darker blue for active state */
-  transform: scale(0.95); /* Shrink slightly on click */
+  background-color: #2a3e73; 
+  transform: scale(0.95); 
 }
 
-/* Add responsive styling */
 @media screen and (max-width: 768px) {
   .about {
       padding: 1rem;
-      max-width: 100%; /* Allow full width on smaller screens */
+      max-width: 100%; 
   }
 
   .about h2 {
